@@ -26,7 +26,7 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
 
         if (position == 1) {
             return new MyRidesFragement();
-        } /*else if (position == 2) {
+        } else if (position == 2) {
             return new ChangePasswordFragment();
         } else if (position == 3) {
             return new EditProfileFragment();
@@ -34,7 +34,7 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
             return new AboutusFragment();
         } else if (position == 6) {
             return new ContactusFragment();
-        }*/else if (position == 7) {
+        }else if (position == 7) {
             return new BlogFragment();
             }
         else return new HomeFragment();
