@@ -34,9 +34,9 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
             return new AboutusFragment();
         } else if (position == 6) {
             return new ContactusFragment();
-        }else if (position == 7) {
+        }*/else if (position == 7) {
             return new BlogFragment();
-            }*/
+            }
         else return new HomeFragment();
     }
 
