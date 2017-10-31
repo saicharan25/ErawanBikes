@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="navigation_menu_items">
+        <item>My Profile</item>
+        <item>Change Password</item>
+        <item>Logout</item>
+        <item>Shopping</item>
+        <item>Foods &amp; Drinks</item>
+        <item>Local Services</item>
+    </array>
+
+    <array name="horizontal_list">
+        <item>Shopping</item>
+        <item>Food &amp; Drinks</item>
+        <item>Local Services</item>
+    </array>
+
+</resources>

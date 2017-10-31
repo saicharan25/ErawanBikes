@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" />
+
+    <ImageView
+        android:id="@+id/clg"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/erawan_logo"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/clg"
+        android:gravity="center"
+        android:text="Pick Your Perfect Bike.!"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linear_layout_search"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/clg"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/pickup_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"
+            android:layout_marginTop="16dp"
+            android:drawablePadding="8dp"
+            android:hint="Pickup Location"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textCursorDrawable="@drawable/cursor"
+            android:textSize="14sp" />
+
+
+        <LinearLayout
+            android:id="@+id/l"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:theme="@style/TextLabel">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/fromtime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_date_range_grey_500_24dp"
+                    android:drawablePadding="@dimen/edit_text_drawable_padding"
+                    android:drawableStart="@drawable/ic_date_range_grey_500_24dp"
+                    android:hint="Enter StartTrip Date"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/light_black"
+                    android:textCursorDrawable="@drawable/cursor" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:theme="@style/TextLabel">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/totime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_date_range_grey_500_24dp"
+                    android:drawablePadding="@dimen/edit_text_drawable_padding"
+                    android:drawableStart="@drawable/ic_date_range_grey_500_24dp"
+                    android:hint="Enter EndTrip Date"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/light_black"
+                    android:textCursorDrawable="@drawable/cursor" />
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/search_bike"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button_radius_red"
+            android:padding="15dp"
+            android:text="@string/search"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <!--  <fragment
+          android:layout_width="fill_parent"
+          android:layout_height="match_parent"
+          android:layout_below="@+id/linear_layout_search"
+          class="erawanbikes.com.sample.Fragments.BikeListFragment"
+          android:id="@+id/output">
+
+      </fragment>-->
+
+
+</RelativeLayout>

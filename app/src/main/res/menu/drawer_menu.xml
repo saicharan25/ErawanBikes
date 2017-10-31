@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/grp1" android:checkableBehavior="single" >
+        <item
+            app:id="@+id/home"
+            app:icon="@drawable/ic_home_white_24dp"
+            app:title="@string/home" />
+        <item
+            app:id="@+id/myrides"
+            app:icon="@drawable/moto"
+            app:title="@string/myrides" />
+
+        <item
+            app:id="@+id/changepassword"
+            app:icon="@drawable/ic_vpn_key_white_24dp"
+            app:title="@string/changepassword" />
+
+        <item
+            app:id="@+id/editprofile"
+            app:icon="@drawable/ic_account_circle_white_24dp"
+            app:title="@string/editProfile" />
+
+        <item
+            app:id="@+id/logout"
+            app:icon="@drawable/logout22"
+            app:title="@string/logout" />
+    </group>
+    <group android:id="@+id/grp2" android:checkableBehavior="single" >
+
+        <item
+            app:id="@+id/aboutus"
+            app:icon="@drawable/ic_description_white_24dp"
+            app:title="@string/aboutus" />
+        <item
+            app:id="@+id/contactus"
+            app:icon="@drawable/ic_copyright_white_24dp"
+            app:title="@string/contactus" />
+        <item
+            app:id="@+id/blog"
+            app:icon="@drawable/group22"
+            app:title="@string/blog" />
+    </group>
+</menu>

@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Erawanbikes</string>
+    <string name="terms">I Agree Terms &amp; Conditions.</string>
+    <string name="bike">Find a Bike?</string>
+    <string name="bike_desc">Find your perfect Bike and book your Ride through our website or mobile app.</string>
+    <string name="delivery">Door Delivery Service</string>
+    <string name="delivery_desc">We Erawan services deliver the bike at your location,without any extra charges.</string>
+    <string name="enjoy">Enjoy The Ride</string>
+    <string name="enjoy_desc">Now the bike is yours, Go enjoy ride around the city or go away for a long road trip.</string>
+    <string name="label_fill_out_form">Please fill out the form before proceeding.</string>
+    <string name="label_grant_permissions">grant permissions</string>
+    <string name="progress_dialog">Loading...</string>
+    <string name="please_wait">Please Wait !</string>
+
+    <string name="err_msg_email_no">Invalid Email/Mobile No</string>
+    <string name="err_msg_enter_email">Enter Email</string>
+    <string name="empty_email">Enter Email/Mobile No</string>
+    <string name="err_msg_enter_email_no">Enter valid Email/Mobile No</string>
+    <string name="err_msg_enter_mobile_no">Enter Mobile Number</string>
+    <string name="err_msg_enter_name">Enter Name</string>
+    <string name="err_msg_enter_password">Enter valid Password</string>
+    <string name="err_msg_enter_equel_password">Enter Equel Password</string>
+    <string name="err_msg_valid_email">Enter Valid Email</string>
+    <string name="err_msg_valid_mobile_no">Enter Valid Mobile Number</string>
+    <string name="err_msg_valid_password">Password must be 6 or above characters</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="aboutus">AboutUs</string>
+    <string name="contactus">ContactUs</string>
+    <string name="blog">Blog</string>
+    <string name="name">profilename</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="myrides">MyRides</string>
+    <string name="changepassword">ChangePassword</string>
+    <string name="editProfile">EditProfile</string>
+    <string name="logout">Logout</string>
+    <string name="search">SEARCH</string>
+    <string name="loading">Loading...</string>
+    <string name="err_name">Enter Name</string>
+    <string name="err_pwd">Enter Password</string>
+    <string name="empty_firstname">Enter FullName</string>
+    <string name="empty_dob">Enter Date of birth</string>
+    <string name="empty_emaill">Enter Email</string>
+    <string name="empty_phnnbr">Enter Phone Number</string>
+    <string name="empty_address">Enter address</string>
+    <string name="termsconditions">T&amp;C></string>
+    <string name="choose_option">Choose Option</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="openDrawer">open drawer</string>
+    <string name="closeDrawer">close drawer</string>
+
+    <string-array name="Sex">
+        <item >Select</item>
+        <item >Male</item>
+        <item >Female</item>
+        <item >Other</item>
+    </string-array>
+
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Photos</item>
+        <item>Movies</item>
+        <item>Notifications</item>
+        <item>Settings</item>
+    </string-array>
+
+</resources>

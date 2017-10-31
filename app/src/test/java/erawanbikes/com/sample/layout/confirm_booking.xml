@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:id="@+id/loginfrag"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+        android:layout_margin="32dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/clg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:text="CONFIRM BOOKING."
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/mobile_nbr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:layout_marginTop="16dp"
+            android:text="Please Enter Your Mobile Number"
+            android:visibility="visible" />
+
+
+        <EditText
+            android:id="@+id/mobile"
+            android:textCursorDrawable="@drawable/cursor"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/edit_text_drawable_padding"
+            android:hint="Enter Mobile"
+            android:inputType="text"/>
+
+        <Button
+            android:id="@+id/mobile_send"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@drawable/button_radius_red"
+            android:text="SEND OTP"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/otp_nbr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:layout_marginTop="16dp"
+            android:text="Please Enter OTP"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/otp"
+            android:textCursorDrawable="@drawable/cursor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawablePadding="@dimen/edit_text_drawable_padding"
+            android:hint="Verify OTP"
+            android:inputType="text"/>
+
+        <Button
+            android:id="@+id/otp_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@drawable/button_radius_red"
+            android:text="SUBMIT"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/resend_otp"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@drawable/button_radius_red"
+            android:text="RESEND OTP"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
